@@ -1,7 +1,7 @@
 import Link from "next/link"
 export default function Help() {
     return (
-        <div className="min-h-screen bg-black text-white flex  justify-center">
+        <div className="min-h-screen bg-black  text-white flex  justify-center">
     <div className="w-full max-w-lg  p-6 rounded-lg shadow-lg">
         <h1 className="text-3xl text-center font-bold mb-8">
             Help & Support

@@ -21,8 +21,8 @@ export default function Header() {
       <header className="bg-white">
         <nav className="flex justify-between items-center w-[92%] mx-auto">
           <div>
-            <Link href="/">
-              <Image className="w-16 cursor-pointer" src={icon} alt="nothing" />
+            <Link href="/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+              <Image className="w-16 cursor-pointer" width={50} height={50} src={icon} alt="nothing" />
             </Link>
           </div>
           <div className={`nav-links duration-500 md:static absolute bg-white md:min-h-fit  left-0 ${isMenuOpen ? 'top-[9%]' : 'top-[-100%]'} md:w-auto w-full flex items-center px-5`}>
@@ -41,11 +41,7 @@ export default function Header() {
               </li>
             </ul>
           </div>
-{signedIn?(
-            <div className="flex items-center gap-6">
-            <Link href="/Profile">  <button className="bg-violet-500 text-white px-5 py-2 rounded-full hover:bg-fuchsia-500">Profile</button></Link>
-          </div>
-):(
+
           <div className="flex items-center gap-6">
             <Link href="/Signin">  <button className="bg-violet-500 text-white px-5 py-2 rounded-full hover:bg-fuchsia-500">Sign in</button></Link>
             <Link href="/Signup"> <button className="bg-violet-500 text-white px-5 py-2 rounded-full hover:bg-fuchsia-500">Sign up</button></Link>
@@ -53,7 +49,7 @@ export default function Header() {
               {isMenuOpen ? <Image className="w-10" src={close} alt="nothing" /> : <Image src={menu} className="w-10" alt="nothing" />}
             </button>
           </div>
-)}
+
         </nav>
       </header>
     </div>

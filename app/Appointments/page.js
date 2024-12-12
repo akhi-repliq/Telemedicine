@@ -1,4 +1,4 @@
-export default function Appointments()
+export default function Appointment()
 {
-    return<h1>This is my appointment page</h1>
+    return <h1>This is the appointment page</h1>
 }

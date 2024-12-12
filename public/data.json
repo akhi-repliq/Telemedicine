@@ -1,0 +1,46 @@
+[
+    {
+        "id":1,
+        "image":"/pic.jpg",
+        "name":"Fatema Tuz Zohra Akhi",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "id":2,
+        "image":"/pic1.jpg",
+        "name":"Md Abid Khan",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "id":3,
+        "image":"/pic2.jpg",
+        "name":"Md Ashik Khan",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    }, {
+        "id":4,
+        "image":"/pic3.jpg",
+        "name":"Zarin Tasnim",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    }, {
+        "id":5,
+        "image":"/pic4.jpg",
+        "name":"Anupoma Paul",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    }, {
+        "id":6,
+        "image":"/pic.jpg",
+        "name":"Naeem",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    }, {
+        "id":7,
+        "image":"/pic1.jpg",
+        "name":"Md Anamul Hasan Rony",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "id":8,
+        "image":"/pic4.jpg",
+        "name":"Md Anamul Hasan Rony",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    }
+]
