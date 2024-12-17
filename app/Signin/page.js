@@ -23,7 +23,7 @@ export default function signin() {
       localStorage.setItem("signedIn","true")
       setTimeout(() => {
         console.log("Redirecting to dashboard...");
-        window.location.href = "/Home";  
+        window.location.href = "/";  
       }, 1000);
     },
   });

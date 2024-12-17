@@ -1,58 +1,55 @@
+import Link from "next/link";
 
-import Link from "next/link" 
-export default function Footer()
-{
-    return <>
-
-    <div className="w-full max-w-screen-xsl mx-auto p-4 md:py-8">
-        <div className="flex items-center justify-around mb-10 text-lg">
-            <ul className=" mb-6  font-medium sm:mb-0 dark:text-gray-400 text-black">
-                <li>
-                    <Link href="#" className="hover:underline me-4 md:me-6 ">About</Link>
-                </li>
-                <li>
-                    <Link href="#" className="hover:underline me-4 md:me-6">Privacy Policy</Link>
-                </li>
-                <li>
-                    <Link href="#" className="hover:underline me-4 md:me-6">Licensing</Link>
-                </li>
-                <li>
-                    <Link href="#" className="hover:underline">Contact</Link>
-                </li>
+export default function Footer() {
+  return (
+    <div className="w-full bg-black text-white py-12">
+      <div className=" mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-12 items-center justify-items-center">
+          <div className="flex flex-col items-center">
+            <ul className="space-y-4">
+              <li>
+                <Link href="#" className="hover:text-gray-400">About</Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-gray-400">Privacy Policy</Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-gray-400">Licensing</Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-gray-400">Contact</Link>
+              </li>
             </ul>
-            <ul className=" mb-6 text-md font-medium  sm:mb-0 dark:text-gray-400 text-black">
-                <li>
-                    <Link href="#" className="hover:underline me-4 md:me-6">About</Link>
-                </li>
-                <li>
-                    <Link href="#" className="hover:underline me-4 md:me-6">Privacy Policy</Link>
-                </li>
-                <li>
-                    <Link href="#" className="hover:underline me-4 md:me-6">Licensing</Link>
-                </li>
-                <li>
-                    <Link href="#" className="hover:underline">Contact</Link>
-                </li>
+          </div>
+          <div className="flex flex-col items-center">
+            <ul className="space-y-4">
+              <li>
+                <Link href="#" className="hover:text-gray-400">Blog</Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-gray-400">Support Center</Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-gray-400">API Docs</Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-gray-400">Careers</Link>
+              </li>
             </ul>
-            <ul className=" mb-6 text-md font-medium  sm:mb-0 dark:text-gray-400 text-black">
-                <li>
-                    <Link href="#" className="hover:underline me-4 md:me-6">About</Link>
-                </li>
-                <li>
-                    <Link href="#" className="hover:underline me-4 md:me-6">Privacy Policy</Link>
-                </li>
-                <li>
-                    <Link href="#" className="hover:underline me-4 md:me-6">Licensing</Link>
-                </li>
-                <li>
-                    <Link href="#" className="hover:underline">Contact</Link>
-                </li>
-            </ul>
+          </div>
+         
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-1" />
-        <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <Link href="https://youtube.com/" className="hover:underline">Hospital™</Link>. All Rights Reserved.</span>
+        <hr className="border-gray-700 mb-8" />
+        <div className="flex flex-col items-center sm:flex-row justify-between text-sm text-gray-400">
+          <span className="text-center mb-4 sm:mb-0">
+            © 2024 <Link href="https://youtube.com/" className="text-gray-200 hover:underline">Hospital™</Link>. All Rights Reserved.
+          </span>
+          <div className="mt-4 sm:mt-0 flex justify-center space-x-6">
+            <Link href="#" className="hover:underline">Terms of Service</Link>
+            <Link href="#" className="hover:underline">Privacy Policy</Link>
+          </div>
+        </div>
+      </div>
     </div>
-
-
-</>
+  );
 }
