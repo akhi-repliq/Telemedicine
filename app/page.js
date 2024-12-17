@@ -1,8 +1,8 @@
 import Image from "next/image";
-import gh from "@/public/gh.jpg";
-import pic from "@/public/pic.jpg";
-import pic1 from "@/public/pic1.jpg";
-import pic2 from "@/public/pic2.jpg";
+import gh from "@../../../public/gh.jpg";
+import pic from "@../../../public/pic.jpg";
+import pic1 from "@../../../public/pic1.jpg";
+import pic2 from "@../../../public/pic2.jpg";
 
 export default function Home() {
   return (
