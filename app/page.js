@@ -3,7 +3,7 @@ import gh from "@../../../public/gh.jpg";
 import pic from "@../../../public/pic.jpg";
 import pic1 from "@../../../public/pic1.jpg";
 import pic2 from "@../../../public/pic2.jpg";
-
+import Link from "next/link";
 export default function Home() {
   return (
     <>
@@ -14,9 +14,13 @@ export default function Home() {
         <p className="text-lg sm:text-xl text-center text-gray-600 max-w-3xl mb-6">
           Experience accessible and reliable telemedicine services designed for your convenience and comfort.
         </p>
+        
         <button className="px-6 py-3 bg-violet-600 text-white font-medium text-lg rounded-lg shadow-lg hover:bg-purple-500 transition">
+        <Link href="/appointments">
           Book Your Appointment
+          </Link>
         </button>
+        
       </div>
 
       <div className="py-24 bg-gray-50">
@@ -72,9 +76,6 @@ export default function Home() {
             <p className="text-base sm:text-lg mb-8">
               Take the first step toward a healthier you! Access personalized healthcare solutions at your convenience and start living your best life today.
             </p>
-            <button className="px-8 py-3 bg-white text-black font-semibold text-lg rounded-lg shadow-lg hover:bg-gray-100 transition">
-              Get Started Now
-            </button>
           </div>
           <div className="w-full lg:w-1/2 flex justify-center">
             <Image 

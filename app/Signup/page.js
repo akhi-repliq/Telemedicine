@@ -143,7 +143,7 @@ export default function signup() {
 
         <h2 className="text-center mt-10">
           Already have an account?{" "}
-          <Link className="text-violet-500" href="/S ignin">
+          <Link className="text-violet-500" href="/Signin">
             Sign In
           </Link>
         </h2>
