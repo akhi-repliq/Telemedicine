@@ -25,7 +25,7 @@ export default function AppointmentsPage() {
           {data.map((appointment, index) => (
             <li
               key={index}
-              className="max-w-lg w-full bg-white rounded-lg p-4 text-black"
+              className="group block rounded-lg bg-white shadow-md p-4 transition-all duration-300 ease-in-out mb-4"
             >
               <p><strong>Doctor:</strong> {appointment.doctorName}</p>
               <p><strong>Name:</strong> {appointment.name}</p>
